@@ -31,8 +31,8 @@ class String
     array.each do |element|
       if element == ""
         array.delete(element)
-      end 
-    end 
+      end
+    end
     array.count
   end
 end
